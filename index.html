@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>EduStore</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>📘 EduStore</h1>
+    <p>Pusat penyimpanan digital mahasiswa</p>
+
+    <div class="grid-menu">
+      <div class="card tugas" onclick="openSection('tugas')">📄<br>Tugas</div>
+      <div class="card modul" onclick="openSection('modul')">📚<br>Modul</div>
+      <div class="card catatan" onclick="openSection('catatan')">📝<br>Catatan</div>
+      <div class="card jadwal" onclick="openSection('jadwal')">🕒<br>Jadwal</div>
+    </div>
+
+    <div id="content-area"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
